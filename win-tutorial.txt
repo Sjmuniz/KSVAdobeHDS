@@ -20,6 +20,10 @@ Crear una carpeta llamda "PHP" dentro de "ChauFlash" y descomprimir lo que acaba
 
 Esto va a abrir una ventana de la consola de windows y empezar a tirar texto que puede ser tranquilamente ignorado, al mismo tiempo van a notar que en la carpeta se va a crear un archivo llamado vtx-low.flv (quiza sin el .flv y solo el icono de su reproductor de cabecera). Esperen unos 10 segundos a que cargue un poco y ya pueden empezar a ver. Pueden hacer pausa y pueden volver a ver desde el punto que deseen. Noten que el script esta directamente bajando como un video la transmisión en vivo. 
 
+Al dejar de ver simplemente cerrar la ventanita de consola (la negra con letras).
+
+Recuerden que el video se almacena en su disco para ser reproducido y crece con el tiempo, por ahora la única forma de evitar que se llene el disco es cerrar, borrar el archivo y volver a empezar.
+
 
 Problemas conocidos: 
 * Por ahora el script esta medio verde y suele saltear audio (no video curiosamente) esporadicamente. Estoy trabajando para mejorarlo en mi tiempo libre.
