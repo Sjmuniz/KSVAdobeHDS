@@ -1,13 +1,31 @@
-Instalar un reproductor de video que soporte archivos flv. Por ejemplo VLC
+MUY IMPORTANTE:
+La idea de este tutorial es evitar el uso de Adobe Flash y permitir ver y escuchar la radio en más plataformas, sean responsables y no lo utilicen de forma ilegal (por ejemplo grabar y redistribuir, retransmitir, modificar, etc). Solo proveo este tutorial de manera informativa a partir de información y recursos públicamente disponibles, no me hago responsable por problemas que pueda traer su uso. Si van a copiarlo a otras páginas o distribuirlo por favor mantengan esta nota intacta.
+
+Ahora si, empecemos:
+
+1) Instalar un reproductor de video que soporte archivos flv. Por ejemplo VLC
 https://www.videolan.org/vlc/download-windows.html
 
-Bajarse los scripts
+2) Bajarse los scripts
 https://github.com/piluex/KSVAdobeHDS
 A la derecha un poquito abajo hay un boton [Download Zip].
 Descomprimir el zip en una carpeta a eleccion, vamos a llamarla ChauFlash en este tutorial.
 
-Bajarse PHP para windows.
+3) Bajarse PHP para windows.
 http://windows.php.net/download/
 (elegir VC11 x86 Thread Safe -> Zip)
 Crear una carpeta llamda "PHP" dentro de "ChauFlash" y descomprimir lo que acabamos de bajar dentro de la misma.
+
+4) Luego ejecutar cualquiera de los archivos .bat según la calidad deseada (doble click), por ejemplo vtx-low.bat (tal vez si se vea solo como vtx-low)
+
+Esto va a abrir una ventana de la consola de windows y empezar a tirar texto que puede ser tranquilamente ignorado, al mismo tiempo van a notar que en la carpeta se va a crear un archivo llamado vtx-low.flv (quiza sin el .flv y solo el icono de su reproductor de cabecera). Esperen unos 10 segundos a que cargue un poco y ya pueden empezar a ver. Pueden hacer pausa y pueden volver a ver desde el punto que deseen. Noten que el script esta directamente bajando como un video la transmisión en vivo. 
+
+
+Problemas conocidos: 
+* Por ahora el script esta medio verde y suele saltear audio (no video curiosamente) esporadicamente. Estoy trabajando para mejorarlo en mi tiempo libre.
+* Si bien esto permite bajar el stream para reproducirlo si la calidad y capacidad de la conexión es mala no va a permitir ver en alta calidad ya que el restraso para bajar las partes se vuelve muy grande. Recomiendo probar las calidades de menor a mayor y utilizar la que mejor funcione.
+
+Contacto:
+Utilicen los comentarios abajo y yo me pongo en contacto cuando tenga tiempo.
+
 
