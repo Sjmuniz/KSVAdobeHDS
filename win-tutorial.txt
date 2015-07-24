@@ -1,0 +1,13 @@
+Instalar un reproductor de video que soporte archivos flv. Por ejemplo VLC
+https://www.videolan.org/vlc/download-windows.html
+
+Bajarse los scripts
+https://github.com/piluex/KSVAdobeHDS
+A la derecha un poquito abajo hay un boton [Download Zip].
+Descomprimir el zip en una carpeta a eleccion, vamos a llamarla ChauFlash en este tutorial.
+
+Bajarse PHP para windows.
+http://windows.php.net/download/
+(elegir VC11 x86 Thread Safe -> Zip)
+Crear una carpeta llamda "PHP" dentro de "ChauFlash" y descomprimir lo que acabamos de bajar dentro de la misma.
+
