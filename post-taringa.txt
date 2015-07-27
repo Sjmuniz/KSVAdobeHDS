@@ -1,0 +1,50 @@
+[size=12][b]MUY IMPORTANTE:[/b][/size]
+[quote]La idea de este tutorial es evitar el uso de Adobe Flash y permitir ver y escuchar la radio en más plataformas, sean responsables y no lo utilicen de forma ilegal (por ejemplo grabar y redistribuir, retransmitir, modificar, etc). Solo proveo este tutorial de manera informativa a partir de información y recursos públicamente disponibles, no me hago responsable por problemas que pueda traer su uso. Si van a copiarlo a otras páginas o distribuirlo por favor mantengan esta nota intacta.[/quote]
+
+Ahora si, empecemos con las instrucciones para windows:
+
+1) Instalar un reproductor de video que soporte archivos flv. Por ejemplo VLC
+[url]https://www.videolan.org/vlc/download-windows.html[/url]
+
+2) Bajarse los scripts
+[url]https://github.com/piluex/KSVAdobeHDS[/url]
+A la derecha un poquito abajo hay un boton "Download Zip".
+[img=http://k46.kn3.net/taringa/7/3/2/D/4/A/Piluex/87A.png]
+Descomprimir el zip en una carpeta a eleccion, vamos a llamarla ChauFlash en este tutorial. Deberia quedar algo asi:
+[img=http://k46.kn3.net/taringa/A/0/4/B/6/6/Piluex/3F0.png]
+
+3) Bajarse PHP para windows.
+[url]http://windows.php.net/download/[/url]
+(elegir VC11 x86 Thread Safe -> Zip)
+[img=http://k46.kn3.net/taringa/E/C/E/B/7/9/Piluex/5E8.png]
+Crear una carpeta llamda "PHP" dentro de "ChauFlash" y descomprimir lo que acabamos de bajar dentro de la misma. Deberia quedar algo asi:
+[img=http://k46.kn3.net/taringa/5/2/B/B/A/6/Piluex/E4C.png]
+
+4) Luego ejecutar cualquiera de los archivos .bat según la calidad deseada (doble click), por ejemplo vtx-low.bat (tal vez si se vea solo como vtx-low)
+
+Esto va a abrir una ventana de la consola de windows y empezar a tirar texto que puede ser tranquilamente ignorado, al mismo tiempo van a notar que en la carpeta se va a crear un archivo llamado vtx-low.flv (quiza sin el .flv y solo el icono de su reproductor de cabecera). Esperen unos 10 segundos a que cargue un poco y ya pueden empezar a ver.
+[img=http://k33.kn3.net/taringa/5/8/8/0/A/2/Piluex/E23.png]
+ Pueden hacer pausa y pueden volver a ver desde el punto que deseen. Noten que el script esta directamente bajando como un video la transmisión en vivo. 
+[b]Resultado:[/b]
+[img=http://k30.kn3.net/taringa/1/C/A/7/A/5/Piluex/429.png]
+
+Al dejar de ver simplemente cerrar la ventanita de consola (la negra con letras).
+
+Recuerden que el video se almacena en su disco para ser reproducido y crece con el tiempo, por ahora la única forma de evitar que se llene el disco es cerrar, borrar el archivo y volver a empezar.
+
+
+Problemas conocidos: 
+* Por ahora el script esta medio verde y suele saltear audio (no video curiosamente) esporadicamente. Estoy trabajando para mejorarlo en mi tiempo libre.
+* Si bien esto permite bajar el stream para reproducirlo si la calidad y capacidad de la conexión es mala no va a permitir ver en alta calidad ya que el restraso para bajar las partes se vuelve muy grande. Recomiendo probar las calidades de menor a mayor y utilizar la que mejor funcione.
+
+Instrucciones para mac/linux:
+
+Voy a ser mas brebe porque asumo que la tienen un poquito mas clara y son menos.
+1) Instalen VLC (en mac vayan a la pagina, en derivados de debian apt-get install vlc).
+2) Instalen PHP (en mac deberia venir, sino brew install php5 php5-curl, en linux apt-get install php5 php5-curl).
+3) Bajen el repositorio de git, igual que en windows (o con git clone) y utilicen el script vtx.sh. Para cambiar la calidad editen el texto y cambien --quality medium por la calidad deseada entre 581 923 1362 y 2046.
+
+Contacto:
+Utilicen los comentarios abajo y yo me pongo en contacto cuando tenga tiempo. Cuentenme como les funciona, si la tienen clara con github pueden colaborar o reportar problemas por ese medio.
+
+
